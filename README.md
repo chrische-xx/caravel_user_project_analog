@@ -1,18 +1,24 @@
-# Caravel Analog User
+# 8-bit SAR-ADC with offset calibration
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![CI](https://github.com/efabless/caravel_user_project_analog/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_user_project_analog/actions/workflows/user_project_ci.yml) [![Caravan Build](https://github.com/efabless/caravel_user_project_analog/actions/workflows/caravan_build.yml/badge.svg)](https://github.com/efabless/caravel_user_project_analog/actions/workflows/caravan_build.yml)
+This is a mixed-mode project featuring a 8-bit SAR-ADC, with offset calibration.
+The logic section is synthesized using the openlane digital flow.
 
----
+## SAR
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
+The adc is composed of a top-plate sampled CDAC, with a capacitor array of 
+mimimum sized MIM caps.
 
-## Please fill in your project documentation in this README.md file 
+The comparator is a single-stage regenerative comparator, with a MOM array 
+for trimming ADC offset. 
 
+## Simulation
 
-:warning: | Use this sample project for analog user projects. 
-:---: | :---
+The simulation is carried out using ngspice using the mixed-mode xspice capabilities.
+The digital section is synthesized using yosys that can then be bridged to/from the
+analog section.
 
----
+## Layout
 
-Refer to [README](docs/source/index.rst) for this sample project documentation. 
+The layout is created using magic as a pcell generator and drc checker, while the 
+connection of the design is done using klayout.
+
