@@ -22,3 +22,5 @@ analog section.
 The layout is created using magic as a pcell generator and drc checker, while the 
 connection of the design is done using klayout.
 
+
+![alt text](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/layout.png)
