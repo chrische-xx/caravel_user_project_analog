@@ -10,7 +10,7 @@ N 3850 -200 3850 -150 { lab=vssa1}
 N 3760 -150 3850 -150 { lab=vssa1}
 N 3710 -240 3750 -240 { lab=io_analog[4]}
 N 4080 -260 4180 -260 { lab=io_out[17]}
-N 3980 -200 3980 -100 { lab=io_in[18]}
+N 3980 -200 3980 -100 { lab=io_in[20]}
 N 3890 -200 3890 -80 { lab=vssd2}
 N 3760 -80 3890 -80 { lab=vssd2}
 N 3750 -500 3890 -500 { lab=vccd2}
@@ -63,7 +63,7 @@ C {devices/lab_pin.sym} 4180 -290 0 1 {name=l7 sig_type=std_logic lab=la_data_ou
 }
 C {devices/lab_pin.sym} 4180 -260 0 1 {name=l11 sig_type=std_logic lab=io_out[17]
 }
-C {devices/lab_pin.sym} 3980 -100 1 1 {name=l12 sig_type=std_logic lab=io_in[18]
+C {devices/lab_pin.sym} 3980 -100 1 1 {name=l12 sig_type=std_logic lab=io_in[20]
 }
 C {/home/christoph/Studium/projekte/design/mpw3-tapeout/caravel_user_project_analog/xschem/sar/sar/sar.sym} 4030 -110 0 0 {name=xsar
 }
