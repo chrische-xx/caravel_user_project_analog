@@ -8,13 +8,15 @@ set PDK_PATH $env(SKY130_PDK_PATH)
 # xschem system-wide design library paths: xschem_library_path
 #----------------------------------------------------------------------
 append XSCHEM_LIBRARY_PATH :${DESIGN_PATH}
-append XSCHEM_LIBRARY_PATH :${DESIGN_PATH}/xschem/symbols
 set XSCHEM_SKY130_SCRIPTS_PATH ${DESIGN_PATH}/xschem/scripts
+
+# NOTE: You need update this to point to your xschem symbols
+append XSCHEM_LIBRARY_PATH :${DESIGN_PATH}/xschem/symbols
 
 #----------------------------------------------------------------------
 # window to open on startup: xschem_start_window
 #----------------------------------------------------------------------
-set XSCHEM_START_WINDOW ${DESIGN_PATH}/top/top.sch
+set XSCHEM_START_WINDOW ${DESIGN_PATH}/user_analog_project_wrapper.sch
 
 #----------------------------------------------------------------------
 # DIRECTORY WHERE SIMULATIONS, NETLIST AND SIMULATOR OUTPUTS ARE PLACED
