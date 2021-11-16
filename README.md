@@ -30,6 +30,9 @@ analog section.
 The Schematics are created using xschem, which also serves as the simulation framework.
 ![testbench](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/xschem.png)
 
+The SAR schematic:
+![testbench](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/sar.png)
+
 The simulation output can then be viewed in both analog and digital domain.
 
 Digital waveforms displayed using GTKWave
