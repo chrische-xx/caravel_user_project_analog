@@ -3,14 +3,6 @@
 This is a mixed-mode project featuring a 8-bit SAR-ADC, with offset calibration.
 The logic section is synthesized using the openlane digital flow.
 
-## SAR
-
-The ADC is composed of a top-plate sampled CDAC, with a capacitor array of 
-mimimum sized MIM caps.
-
-The comparator is a single-stage regenerative comparator, with a MOM array 
-for trimming ADC offset. 
-
 
 ## Layout
 
