@@ -32,8 +32,7 @@ C {devices/ipin.sym} 110 -650 0 0 {name=p2 lab=vin}
 C {devices/ipin.sym} 260 -505 0 0 {name=p5 lab=sample}
 C {devices/lab_wire.sym} 210 -710 0 0 {name=l24 sig_type=std_logic lab=sample}
 C {devices/opin.sym} 370 -720 0 0 {name=p18 lab=out}
-C {devices/ipin.sym} 260 -470 0 0 {name=p10 lab=ctl[7:0]
-}
+C {devices/ipin.sym} 260 -470 0 0 {name=p10 lab=ctl[7:0]}
 C {devices/lab_wire.sym} 2350 -540 3 0 {name=l60 sig_type=std_logic lab=ndum}
 C {devices/lab_wire.sym} 2130 -540 3 0 {name=l61 sig_type=std_logic lab=n0}
 C {devices/lab_wire.sym} 1910 -540 3 0 {name=l62 sig_type=std_logic lab=n1}
@@ -43,53 +42,29 @@ C {devices/lab_wire.sym} 1250 -540 3 0 {name=l65 sig_type=std_logic lab=n4}
 C {devices/lab_wire.sym} 1030 -540 3 0 {name=l66 sig_type=std_logic lab=n5}
 C {devices/lab_wire.sym} 810 -540 3 0 {name=l67 sig_type=std_logic lab=n6}
 C {devices/lab_wire.sym} 590 -540 3 0 {name=l68 sig_type=std_logic lab=n7}
-C {sar/dac/carray.sym} 500 -540 0 0 {name=xca
-}
-C {sar/sw/sw_top.sym} 160 -620 0 0 {name=xswt[3:0]
-}
+C {sar/dac/carray.sym} 500 -540 0 0 {name=xca}
 C {devices/lab_wire.sym} 200 -670 2 1 {name=l50 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 200 -630 0 0 {name=l51 sig_type=std_logic lab=vss}
-C {devices/ipin.sym} 260 -440 0 0 {name=p1 lab=dum
-}
-C {xschem_library/devices/iopin.sym} 260 -240 2 0 {name=p6 lab=vdd
-}
-C {xschem_library/devices/iopin.sym} 260 -210 2 0 {name=p8 lab=vss
-}
-C {devices/lab_wire.sym} 590 -410 3 0 {name=l1 sig_type=std_logic lab=ctl[7]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 810 -450 3 0 {name=xi6 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 810 -410 3 0 {name=l2 sig_type=std_logic lab=ctl[6]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 1030 -450 3 0 {name=xi5 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 1030 -410 3 0 {name=l3 sig_type=std_logic lab=ctl[5]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 1250 -450 3 0 {name=xi4 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 1250 -410 3 0 {name=l4 sig_type=std_logic lab=ctl[4]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 1470 -450 3 0 {name=xi3 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 1470 -410 3 0 {name=l5 sig_type=std_logic lab=ctl[3]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 1690 -450 3 0 {name=xi2 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 1690 -410 3 0 {name=l6 sig_type=std_logic lab=ctl[2]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 1910 -450 3 0 {name=xi1 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 1910 -410 3 0 {name=l7 sig_type=std_logic lab=ctl[1]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 2130 -450 3 0 {name=xi0 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 2130 -410 3 0 {name=l8 sig_type=std_logic lab=ctl[0]
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 2350 -450 3 0 {name=xidum VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {devices/lab_wire.sym} 2350 -410 3 0 {name=l9 sig_type=std_logic lab=dum
-}
-C {xschem_sky130/sky130_stdcells/inv_2.sym} 590 -450 3 0 {name=xi7 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
-C {xschem_sky130/sky130_stdcells/tap_2.sym} 370 -250 0 0 {name=x2[2:0] VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
-}
+C {devices/ipin.sym} 260 -440 0 0 {name=p1 lab=dum}
+C {devices/iopin.sym} 260 -240 2 0 {name=p6 lab=vdd}
+C {devices/iopin.sym} 260 -210 2 0 {name=p8 lab=vss}
+C {devices/lab_wire.sym} 590 -410 3 0 {name=l1 sig_type=std_logic lab=ctl[7]}
+C {sky130_stdcells/inv_2.sym} 810 -450 3 0 {name=xi6 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 810 -410 3 0 {name=l2 sig_type=std_logic lab=ctl[6]}
+C {sky130_stdcells/inv_2.sym} 1030 -450 3 0 {name=xi5 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 1030 -410 3 0 {name=l3 sig_type=std_logic lab=ctl[5]}
+C {sky130_stdcells/inv_2.sym} 1250 -450 3 0 {name=xi4 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 1250 -410 3 0 {name=l4 sig_type=std_logic lab=ctl[4]}
+C {sky130_stdcells/inv_2.sym} 1470 -450 3 0 {name=xi3 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 1470 -410 3 0 {name=l5 sig_type=std_logic lab=ctl[3]}
+C {sky130_stdcells/inv_2.sym} 1690 -450 3 0 {name=xi2 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 1690 -410 3 0 {name=l6 sig_type=std_logic lab=ctl[2]}
+C {sky130_stdcells/inv_2.sym} 1910 -450 3 0 {name=xi1 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 1910 -410 3 0 {name=l7 sig_type=std_logic lab=ctl[1]}
+C {sky130_stdcells/inv_2.sym} 2130 -450 3 0 {name=xi0 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 2130 -410 3 0 {name=l8 sig_type=std_logic lab=ctl[0]}
+C {sky130_stdcells/inv_2.sym} 2350 -450 3 0 {name=xidum VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {devices/lab_wire.sym} 2350 -410 3 0 {name=l9 sig_type=std_logic lab=dum}
+C {sky130_stdcells/inv_2.sym} 590 -450 3 0 {name=xi7 VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {sky130_stdcells/tap_2.sym} 370 -250 0 0 {name=x2[2:0] VGND=vss VNB=vss VPB=vdd VPWR=vdd prefix=sky130_fd_sc_hd__ 
+C {sar/sw/sw_top.sym} 160 -620 0 0 {name=xswt}
