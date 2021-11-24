@@ -61,7 +61,7 @@ N 80 -320 80 -290 { lab=cal}
 N 80 -440 80 -410 { lab=en}
 N 1060 -50 1180 -50 { lab=rstn}
 N 450 -320 450 -290 { lab=rstn}
-C {adc/comparator/comparator.sym} 610 -330 0 0 {name=xcom}
+C {sar/comparator/comparator.sym} 610 -330 0 0 {name=xcom}
 C {devices/vsource.sym} 180 -530 0 0 {name=V1 value=0}
 C {devices/vsource.sym} 80 -530 0 0 {name=V2 value=1.4
 }
