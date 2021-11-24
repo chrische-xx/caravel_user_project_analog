@@ -3,14 +3,6 @@
 This is a mixed-mode project featuring a 8-bit SAR-ADC, with offset calibration.
 The logic section is synthesized using the openlane digital flow.
 
-## SAR
-
-The adc is composed of a top-plate sampled CDAC, with a capacitor array of 
-mimimum sized MIM caps.
-
-The comparator is a single-stage regenerative comparator, with a MOM array 
-for trimming ADC offset. 
-
 
 ## Layout
 
@@ -19,6 +11,15 @@ connection of the design is done using klayout.
 
 
 ![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/layout.png)
+
+
+## Architecture
+
+The ADC is composed of a differential top-plate sampled dac, which is made from an array of MIM capacitors.
+The comparator is a regenerative comparator, which is followed by a latch to retain the output state during
+reset. The latch output is fed into the logic section, which performs the standard binary search algorithm. 
+
+![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/architecture.png)
 
 
 ## Simulation
