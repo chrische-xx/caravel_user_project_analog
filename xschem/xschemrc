@@ -10,7 +10,8 @@ set PDK_PATH $env(SKY130_PDK_PATH)
 append XSCHEM_LIBRARY_PATH :${DESIGN_PATH}
 set XSCHEM_SKY130_SCRIPTS_PATH ${DESIGN_PATH}/xschem/scripts
 
-# NOTE: You need update this to point to your xschem symbols
+# NOTE: You need update this to point to your xschem symbols,
+#       or place the symbols in this location:
 append XSCHEM_LIBRARY_PATH :${DESIGN_PATH}/xschem/symbols
 
 #----------------------------------------------------------------------

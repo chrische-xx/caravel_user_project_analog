@@ -54,24 +54,14 @@ C {devices/opin.sym} 3270 600 0 0 {name=p32 lab=user_irq[2:0]}
 C {devices/ipin.sym} 3290 210 0 0 {name=p28 lab=la_oenb[127:0]}
 C {devices/lab_pin.sym} 3750 -450 0 0 {name=l1 sig_type=std_logic lab=vdda1}
 C {devices/lab_pin.sym} 3760 -150 0 0 {name=l2 sig_type=std_logic lab=vssa1}
-C {devices/lab_pin.sym} 3750 -500 0 0 {name=l3 sig_type=std_logic lab=vccd2
-}
+C {devices/lab_pin.sym} 3750 -500 0 0 {name=l3 sig_type=std_logic lab=vccd2}
 C {devices/lab_pin.sym} 3710 -240 0 0 {name=l5 sig_type=std_logic lab=io_analog[4]}
-C {devices/lab_pin.sym} 3760 -80 0 0 {name=l6 sig_type=std_logic lab=vssd2
-}
-C {devices/lab_pin.sym} 4180 -290 0 1 {name=l7 sig_type=std_logic lab=la_data_out[29:36]
-}
-C {devices/lab_pin.sym} 4180 -260 0 1 {name=l11 sig_type=std_logic lab=io_out[17]
-}
-C {devices/lab_pin.sym} 3980 -100 1 1 {name=l12 sig_type=std_logic lab=io_in[20]
-}
-C {/home/christoph/Studium/projekte/design/mpw3-tapeout/caravel_user_project_analog/xschem/sar/sar/sar.sym} 4030 -110 0 0 {name=xsar
-}
-C {devices/lab_pin.sym} 3710 -340 0 0 {name=l4 sig_type=std_logic lab=io_analog[5]
-}
-C {devices/lab_pin.sym} 4010 -100 1 1 {name=l13 sig_type=std_logic lab=io_in[19]
-}
-C {devices/lab_pin.sym} 4030 -100 1 1 {name=l14 sig_type=std_logic lab=io_in[23]
-}
-C {devices/lab_pin.sym} 3980 -480 3 1 {name=l15 sig_type=std_logic lab=io_in[18]
-}
+C {devices/lab_pin.sym} 3760 -80 0 0 {name=l6 sig_type=std_logic lab=vssd2}
+C {devices/lab_pin.sym} 4180 -290 0 1 {name=l7 sig_type=std_logic lab=la_data_out[29:36]}
+C {devices/lab_pin.sym} 4180 -260 0 1 {name=l11 sig_type=std_logic lab=io_out[17]}
+C {devices/lab_pin.sym} 3980 -100 1 1 {name=l12 sig_type=std_logic lab=io_in[20]}
+C {sar/sar/sar.sym} 4030 -110 0 0 {name=xsar}
+C {devices/lab_pin.sym} 3710 -340 0 0 {name=l4 sig_type=std_logic lab=io_analog[5]}
+C {devices/lab_pin.sym} 4010 -100 1 1 {name=l13 sig_type=std_logic lab=io_in[19]}
+C {devices/lab_pin.sym} 4030 -100 1 1 {name=l14 sig_type=std_logic lab=io_in[23]}
+C {devices/lab_pin.sym} 3980 -480 3 1 {name=l15 sig_type=std_logic lab=io_in[18]}
