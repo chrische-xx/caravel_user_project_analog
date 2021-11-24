@@ -59,7 +59,7 @@ C {xschem_library/devices/iopin.sym} 1400 -190 1 0 {name=p7 lab=n3
 }
 C {xschem_library/devices/iopin.sym} 1870 -190 1 0 {name=p8 lab=n1
 }
-C {adc/unitcap/unitcap.sym} 2600 -220 0 0 {name=xdummy[83:0]
+C {sar/unitcap/unitcap.sym} 2600 -220 0 0 {name=xdummy[83:0]
 spice_ignore="tcleval($dummy_ignore)"
 }
 C {lab_wire.sym} 2610 -320 0 0 {name=l1 sig_type=std_logic lab=top
