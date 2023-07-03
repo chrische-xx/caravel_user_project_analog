@@ -5,9 +5,10 @@ The logic section is synthesized using the openlane digital flow.
 
 ## Silicon Measurements 
 
-Measurement results from the first die. 
+Measurement results from the first measured die that was taped-out on the [MPW3 Shuttle](https://platform.efabless.com/shuttles/MPW-3)
 
 ```
+Measurement Conditions:
 AVDD=1.5V
 DVDD=1.5V
 VCM=0.75V
