@@ -5,11 +5,20 @@ The logic section is synthesized using the openlane digital flow.
 
 ## Silicon Measurements 
 
-![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/tf.png)
+Measurement results from the first die. 
 
-![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/inl.png)
+```
+AVDD=1.5V
+DVDD=1.5V
+VCM=0.75V
+No offset calibration.
+```
 
-![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/dnl.png)
+![TF](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/tf.png)
+
+![INL](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/inl.png)
+
+![DNL](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/dnl.png)
 
 
 
