@@ -3,6 +3,15 @@
 This is a mixed-mode project featuring a 8-bit SAR-ADC, with offset calibration.
 The logic section is synthesized using the openlane digital flow.
 
+## Silicon Measurements 
+
+![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/tf.png)
+
+![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/inl.png)
+
+![layout](https://github.com/chrische-xx/caravel_user_project_analog/blob/main/docs/pictures/silicon/dnl.png)
+
+
 
 ## Layout
 
